@@ -1,0 +1,15 @@
+diff --git a/走a范围.ahk b/走a范围.ahk
+index 15cf9e5..3cd5e05 100644
+--- a/走a范围.ahk
++++ b/走a范围.ahk
+@@ -7,9 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+ 
+ time=30
+ $~RButton::
+-sleep,30
+-SendInput,x
+-SendInput,{RButton}
++SendInput,{c}
+ return
+ 
+ F5::Reload

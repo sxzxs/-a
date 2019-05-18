@@ -7,9 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 time=30
 $~RButton::
-sleep,30
-SendInput,x
-SendInput,{RButton}
+SendInput,{c}
 return
 
 F5::Reload
