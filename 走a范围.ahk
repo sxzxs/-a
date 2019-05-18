@@ -30,4 +30,4 @@ Return
 SoundPlay(sound)
 {
         SoundPlay, %A_ScriptDir%\config\music\%sound%.mp3   
-} 
+}
