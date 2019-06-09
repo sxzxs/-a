@@ -6,7 +6,21 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #IfWinActive ahk_class RiotWindowClass
 
 time=30
+
+
+$~f7::
+while(1)
+{
+SendInput,{c Down}
+Sleep,%Time%
+SendInput,{c up}
+Sleep,200
+
+}
+return
+
 $~RButton::
+
 SendInput,{c Down}
 Sleep,%Time%
 SendInput,{c up}
@@ -16,7 +30,11 @@ SendInput,x
 sleep,time
 SendInput,a
 return
-~f5::
+
+Pause::Pause 
+
+~f6::
+Pause
 Suspend
 if(A_IsSuspended==0)
 {
