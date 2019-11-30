@@ -1,4 +1,12 @@
 ﻿/*
+*版本：zzZ_0.1.1_2019年11月30日
+*修复:
+*修改：
+*新增:
+*
+*/
+
+/*
 try
 {
 	whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
@@ -127,4 +135,4 @@ Return
 SoundPlay(sound)
 {
         SoundPlay, %A_ScriptDir%\config\music\%sound%.mp3   
-}   
+}  
